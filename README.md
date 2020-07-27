@@ -1,7 +1,7 @@
 # GodotRtsCameraController3D
 An implementation of an RTS camera controller for the Godot game engine
 
-To use this node simply add RtsCameraController.tscn and RtsCameraController.gd to your project.  
+To use this node simply add `RtsCameraController.tscn` and `RtsCameraController.gd` to your project.  
 Also you will need to set up the following 8 actions to your project input map:
 1.  camera_forward
 2.  camera_backward
