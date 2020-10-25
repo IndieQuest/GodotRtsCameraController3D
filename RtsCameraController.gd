@@ -138,7 +138,7 @@ func _zoom(delta: float) -> void:
 		_realign_camera(pointing_at)
 	# faze out speed
 	zoom_direction *= zoom_speed_damp
-	if zoom_speed_damp < 0.0001:
+	if abs(zoom_direction) < 0.0001:
 		zoom_direction = 0
 
 
